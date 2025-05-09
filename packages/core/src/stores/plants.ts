@@ -1,6 +1,5 @@
 // packages/core/src/stores/plants.ts
 import { defineStore } from 'pinia'
-import { computed, ref } from 'vue'
 
 export interface Plant {
   id: string
