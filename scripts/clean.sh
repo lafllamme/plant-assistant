@@ -28,6 +28,15 @@ for dir in packages/*/node_modules; do
   fi
 done
 
+# Remove node_modules in apps/app-name/node_modules
+for dir in apps/*/node_modules; do
+  if [ -d "$dir" ]; then
+    rm -rf "$dir"
+    log 34 "🗑️ Removed $dir"
+    FOUND=true
+  fi
+done
+
 if [ "$FOUND" = false ]; then
   log 33 "⚠️ No package node_modules found"
 fi
