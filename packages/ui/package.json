@@ -1,0 +1,29 @@
+{
+  "name": "@plant/ui",
+  "type": "module",
+  "version": "0.0.1",
+  "main": "./nuxt.config.ts",
+  "scripts": {
+    "dev": "nuxi dev .playground",
+    "dev:prepare": "nuxt prepare .playground",
+    "prepare": "nuxi prepare",
+    "build": "nuxt build .playground",
+    "generate": "nuxt generate .playground",
+    "preview": "nuxt preview .playground",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@nuxt/fonts": "0.11.2",
+    "@nuxt/icon": "1.12.0",
+    "@nuxt/image": "1.10.0",
+    "@nuxt/scripts": "0.11.6",
+    "@nuxt/ui": "3.1.1",
+    "@unhead/vue": "^2.0.3",
+    "@unocss/nuxt": "^66.1.1",
+    "nuxt": "^3.17.2",
+    "typescript": "^5.8.3",
+    "unocss": "^66.1.1",
+    "vue": "latest"
+  }
+}

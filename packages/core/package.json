@@ -1,0 +1,25 @@
+{
+  "name": "@plant/core",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "prepare": "nuxi prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "peerDependencies": {
+    "nuxt": "^3.17.2"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.11.0",
+    "pinia": "^3.0.2",
+    "workers-ai-provider": "^0.3.2"
+  },
+  "devDependencies": {
+    "@nuxt/kit": "^3.17.2",
+    "@nuxt/schema": "^3.17.2",
+    "nuxt": "^3.17.2",
+    "typescript": "^5.8.3"
+  }
+}

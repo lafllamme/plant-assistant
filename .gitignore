@@ -1,0 +1,38 @@
+.env
+
+# hide intellij project files
+.idea/
+
+# hide node_modules
+node_modules/
+
+# nuxt specific files
+.nuxt
+nuxt.d.ts
+.output
+.data
+framework
+dist
+.DS_Store
+
+# hide nuxt specific files in packages
+packages/*/.nuxt
+packages/*/nuxt.d.ts
+packages/*/.output
+packages/*/.data
+packages/*/framework
+packages/*/dist
+
+# hide node_modules in packages/package-name/node_modules
+packages/*/node_modules/
+
+# hide build files
+build/
+
+# hide coverage files
+coverage/
+
+# hide log files
+*.log
+
+

@@ -1,0 +1,17 @@
+// apps/web/tsconfig.json
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "types": [
+      "nuxt",
+      "nuxt/schema",
+      "nuxt/app"
+    ]
+  },
+  "include": [
+    ".",
+    // include the auto-import declarations so your IDE picks up `useFoo()`, etc.
+    ".nuxt/types/imports.d.ts",
+    "pages/**/*.vue"
+  ]
+}

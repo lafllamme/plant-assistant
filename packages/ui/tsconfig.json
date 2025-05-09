@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "types": [
+      "nuxt",
+      "nuxt/config",
+      "nuxt/schema",
+      "nuxt/app"
+    ]
+  },
+  "files": [
+    ".nuxt/types/imports.d.ts"
+  ]
+}
