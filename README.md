@@ -89,4 +89,4 @@ pnpm dev:web       # start your web app
 
 ---
 
-Made with Love ❤️ by [LaFllamme](https://github.com/lafllamme)
+Made with love by [Laflamme](https://github.com/lafllamme).
